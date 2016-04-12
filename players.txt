@@ -1,0 +1,30 @@
+Auston Matthews,1,C,Zurich (NLA)
+Patrik Laine,2,RW,Tappara (Liiga)
+Jesse Puljujarvi,3,RW,Karpat (Liiga)
+Matthew Tkachuk,4,LW,London (OHL)
+Jakob Chychrun,5,D,Sarnia (OHL)
+Alexander Nylander,6,RW/LW,Mississauga (OHL)
+Pierre-Luc Dubois,7,C/LW,Cape Breton (QMJHL)
+Michael McLeod,8,C,Mississauga (OHL)
+Mikhail Sergachyov,9,D,Windsor (OHL)
+Olli Juolevi,10,D,London (OHL)
+Clayton Keller,11,C,USA U18
+Charlie McAvoy,12,D,Boston University
+Max Jones,13,LW,London (OHL)
+Tyson Jost,14,C/LW,Penticton (BCHL)
+German Rubtsov,15,C,Russia U18
+Julien Gauthier,16,RW,Val-d'Or (QMJHL)
+Dante Fabbro,17,D,Penticton (BCHL)
+Logan Brown,18,C,Windsor (OHL)
+Kieffer Bellows,19,C/LW,USA U18
+Jake Bean,20,D,Calgary (WHL)
+Luke Kunin,21,C,University of Wisconsin
+Riley Tufte,22,LW,Fargo (USHL)
+Rasmus Asplund,23,C/LW,Farjestad BK (SHL)
+Tage Thompson,24,C/RW,UConn
+Tyler Benson,25,LW,Vancouver (WHL)
+Libor Hajek,26,D,Saskatoon (WHL)
+Sam Steel,27,C,Regina (WHL)
+Logan Stanley,28,D,Windsor (OHL)
+Dillon Dube,29,C,Kelowna (WHL)
+Chad Krys,30,D,USA U18
