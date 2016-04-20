@@ -20,7 +20,7 @@ int main()
 		std::cin >> input;
 		switch (input) {
 		case 0:
-			std::cout << "\nExiting...\n";
+			std::cout << "\nExiting...\n\n";
 			valid = true;
 			break;
 		case 1:
@@ -38,14 +38,18 @@ int main()
 
 			std::cout << "\nEnter number of times to run simulation: ";
 			std::cin >> num;
-
+			std::cout << "\n";
+			
 			for (int i = 0; i < num; i++) {
+				std::cout << "\r" << i + 1 << " Simulation(s) Complete...";
+				std::cout.flush();
+				
 				g.initializeSim();
 				g.runSim();
 				g.count();
 				g.reset();
 			}
-			std::cout << "\nAfter simulating the lottery " << num << " time(s), the results are: \n\n";
+			std::cout << "\n\nAfter simulating the lottery " << num << " time(s), the results are: \n\n";
 
 			g.displaySim();
 			g.resetSim();

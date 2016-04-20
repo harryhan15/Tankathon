@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <stdlib.h>
 #include <time.h>
-#include <Windows.h>
+#include <unistd.h>
 #include "lottery.h"
 
 Lottery::Lottery() {
@@ -213,7 +213,7 @@ void Lottery::generateOutputFile() {
 void Lottery::display() {
 
 	std::cout << "Simulation Complete\n\n";
-	Sleep(1000);
+	usleep(1000);
 	std::cout << "|------------------------------------------------------------------------------------------------|\n";
 	std::cout << "|" << std::setw(27) << std::left << "Pick" << "|";
 	std::cout << std::setw(20) << std::left << "Player" << "|";
@@ -228,7 +228,7 @@ void Lottery::display() {
 				lotteryTeams[j].display();
 
 				if (i < 4) {
-					Sleep(1000);
+					usleep(1000);
 				}
 				
 				if (i == 3) {
@@ -239,7 +239,7 @@ void Lottery::display() {
 	}
 
 	std::cout << "|------------------------------------------------------------------------------------------------|\n";
-	Sleep(1000);
+	usleep(1000);
 
 	for (int i = 0; i < MAX_PLAYOFF_TEAMS; i++) {
 		playoffTeams[i].display();
